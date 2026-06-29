@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="Notes-box">
+
+            <div class="sidebar">
+
+                <div class="head">
+
+                    <header>Notes App</header>
+
+                    <button id="delBtn"><i class="fa-solid fa-delete-left"></i></button>
+
+                    <button id="saveBtn"><i class="fa-regular fa-floppy-disk"></i></button>
+
+                    <button id="newBtn">
+                        <i class="fa-solid fa-plus"></i>
+                    </button>
+
+                </div>
+
+                <div class="notes">
+                    <ul id="notesList">
+                        
+                    </ul>
+                </div>
+                
+            </div>
+
+            <div class="message">
+                <h1>Click + to create new note</h1>
+            </div>
+
+            <div class="editor">
+                
+                <label for="notes">Create new note: </label>
+
+                <div class="title">
+                    <h2>Title:</h2>
+
+                    <input type="text" id="titleInput">
+                </div>
+
+                <textarea name="" id="note-textarea"></textarea>
+            </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
