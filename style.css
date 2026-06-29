@@ -21,7 +21,7 @@ body{
 }
 
 .Notes-box{
-    width: min(1200px, 100%);
+    width: 100%;
     height: 100%;
     background-color: #B8DCFF;
     border-radius: 10px;
